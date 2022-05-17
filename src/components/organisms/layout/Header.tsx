@@ -7,6 +7,7 @@ import { MenuIconButton } from "../../atoms/buttons/MenuIconButton";
 import { MenuDrawer } from "../../molecules/MenuDrawer";
 
 export const Header: VFC = memo(() => {
+  console.log("Header");
   const { isOpen, onOpen, onClose } = useDisclosure();
   const history = useHistory();
 
